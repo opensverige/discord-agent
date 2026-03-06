@@ -1,6 +1,13 @@
 # Discord-agent — OpenSverige
 # https://github.com/opensverige/.github (agent-infra, manifesto)
 
+# Körmiljö (nanoclaw på Mac mini 24/7, 16 GB RAM)
+runtime:
+  environment: nanoclaw
+  host: mac-mini
+  mode: 24/7
+  ram_gb: 16
+
 agent:
   name: opensverige-discord-agent
   identity: ../identity/agent.md

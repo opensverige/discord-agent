@@ -10,6 +10,21 @@ Eget repo för att bygga **en bra AI-agent** som lever i vår Discord: svarar, h
 
 ---
 
+## Körmiljö / spec
+
+Agenten är tänkt att köra i **nanoclaw**-miljö på en **Mac mini**, 24/7.
+
+| | |
+|--|--|
+| **Miljö** | nanoclaw |
+| **Maskin** | Mac mini |
+| **Körning** | 24/7 |
+| **RAM** | 16 GB |
+
+Bygg och testa med detta i åtanke så att agenten håller sig inom resurserna.
+
+---
+
 ## Snabbstart
 
 1. **Klona** (kräver access till opensverige-org).
