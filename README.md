@@ -12,16 +12,26 @@ Eget repo för att bygga **en bra AI-agent** som lever i vår Discord: svarar, h
 
 ## Körmiljö / spec
 
-Agenten är tänkt att köra i **nanoclaw**-miljö på en **Mac mini**, 24/7.
+Agenten kör på **Mac mini**, 24/7, 16 GB RAM.
 
 | | |
 |--|--|
-| **Miljö** | nanoclaw |
 | **Maskin** | Mac mini |
 | **Körning** | 24/7 |
 | **RAM** | 16 GB |
 
-Bygg och testa med detta i åtanke så att agenten håller sig inom resurserna.
+**Agent-framework (välj ett):**
+
+- **nanoclaw** — lättvikt, bra för enkel bot-logik.
+- **Hermes** ([NousResearch](https://github.com/nousresearch)) — Hermes Agent framework; starkare stöd för **long-term memory**, bra om agenten ska logga och minnas vad som hänt i communityt (kanaler, beslut, sammanfattningar över tid).
+
+Bygg och testa med dessa resurser i åtanke.
+
+---
+
+## Long-term memory (logga vad som hänt i communityt)
+
+Om agenten ska **logga och minnas** vad som händer i Discord (viktiga händelser, beslut, sammanfattningar) rekommenderas **Hermes (NousResearch)** framför nanoclaw: bättre stöd för persistent minne och retrieval. Definiera vad som ska loggas i `memory/` och följ [agent-infra/memory](https://github.com/opensverige/.github/tree/main/agent-infra/memory) (transparens, ingen känslig data). Alternativ: egen memory-layer (t.ex. vektordatabas eller strukturerad logg) oavsett framework — dokumentera i `tools/` eller `memory/`.
 
 ---
 

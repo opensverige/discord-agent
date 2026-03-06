@@ -3,6 +3,10 @@
 
 pyyaml>=6.0
 
-# När ni bygger boten (välj en):
+# Discord-bot (välj en):
 # discord.py
 # nextcord
+
+# Agent-framework (välj nanoclaw eller Hermes för long-term memory):
+# nanoclaw
+# hermes / nousresearch (Hermes Agent framework)

@@ -1,12 +1,15 @@
 # Discord-agent — OpenSverige
 # https://github.com/opensverige/.github (agent-infra, manifesto)
 
-# Körmiljö (nanoclaw på Mac mini 24/7, 16 GB RAM)
+# Körmiljö: Mac mini 24/7, 16 GB RAM
+# Framework: nanoclaw (lättvikt) ELLER hermes (NousResearch, bättre för long-term memory)
 runtime:
-  environment: nanoclaw
   host: mac-mini
   mode: 24/7
   ram_gb: 16
+  # Välj ett: nanoclaw | hermes
+  framework: nanoclaw
+  # hermes rekommenderas om agenten ska logga/minnas vad som hänt i communityt
 
 agent:
   name: opensverige-discord-agent
