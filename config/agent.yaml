@@ -1,0 +1,14 @@
+# Discord-agent — OpenSverige
+# https://github.com/opensverige/.github (agent-infra, manifesto)
+
+agent:
+  name: opensverige-discord-agent
+  identity: ../identity/agent.md
+  memory_dir: ../memory
+  tools_specs: ../tools
+
+# Discord
+discord:
+  # Guild ID sätts i .env som DISCORD_GUILD_ID
+  # Bot token i .env som DISCORD_BOT_TOKEN
+  command_prefix: "!"   # valfritt, om ni använder text-kommandon

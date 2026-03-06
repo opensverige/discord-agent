@@ -1,0 +1,8 @@
+# Discord-agent — OpenSverige
+# Minimal; lägg till discord.py / nextcord när ni implementerar boten
+
+pyyaml>=6.0
+
+# När ni bygger boten (välj en):
+# discord.py
+# nextcord
